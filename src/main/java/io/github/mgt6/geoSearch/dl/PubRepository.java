@@ -10,11 +10,11 @@ import java.util.List;
 
 public interface PubRepository extends MongoRepository<Pub, String> {
 
-    public Pub findByName(String name);
+    Pub findByName(String name);
 
-    public List<Pub> findByRatingGreaterThan(int rating);
+    List<Pub> findByRatingGreaterThan(int rating);
 
-    public List<Pub> findByRatingLessThan(int rating);
+    List<Pub> findByRatingLessThan(int rating);
 
     GeoResults<Pub> findByLocationNear(Point location, Distance distance);
 
