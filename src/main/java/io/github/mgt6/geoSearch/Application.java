@@ -32,7 +32,7 @@ public class Application implements CommandLineRunner {
         repository.save(new Pub("The Cherry Tree", -1, 51.461512, -0.078988));
         repository.save(new Pub("The Fox on the Hill", 3, 51.4651705, -0.0895804));
         repository.save(new Pub("The Flying Pig", 5, 51.461744, -0.070394));
-        repository.save(new Pub("The East Dulwich Taven",4, 51.460463, -0.07513));
+        repository.save(new Pub("The East Dulwich Tavern",4, 51.460463, -0.07513));
 
         System.out.println("Pubs found with findAll():");
         System.out.println("-------------------------------");
