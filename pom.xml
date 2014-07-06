@@ -8,8 +8,6 @@
 <artifactId>geoSearch</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 
-
-<!-- our one dependency on Spring Boot's web support. No version. -->
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +19,6 @@
     </dependency>
 </dependencies>
 
-<!-- Transitively bring in the Spring IO Platform Bill-of-Materials `pom.xml` -->
 <dependencyManagement>
     <dependencies>
         <dependency>
